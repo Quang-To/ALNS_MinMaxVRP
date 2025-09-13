@@ -41,7 +41,17 @@ python main.py alns data/input3.txt
 
 ## Data Structure and Experimental Design
 
-All input instances are provided in the `data/` directory, ranging from `input1.txt` to `input11.txt`. Each file represents a distinct scenario, designed to test the scalability, robustness, and fairness of the implemented algorithms. The diversity of instances enables comprehensive benchmarking and facilitates reproducibility of experimental results, which is essential for academic research and practical validation.
+
+All input instances are provided in the `data/` directory, ranging from `input1.txt` to `input11.txt`. Each file encodes a scenario of the following problem:
+
+> Given K taxis (starting at depot 0), N passenger requests, and M parcel requests, compute routes for the taxis such that:
+> - Each passenger is picked up and dropped off directly (no stops in between).
+> - Each parcel has a quantity and each taxi has a parcel capacity.
+> - The goal is to minimize the length of the longest route among all taxis, balancing workload.
+> - Input includes the number of requests, parcel quantities, taxi capacities, and a distance matrix.
+> - Output specifies the routes for each taxi, starting and ending at the depot.
+
+This structure enables comprehensive benchmarking and facilitates reproducibility of experimental results, which is essential for academic research and practical validation.
 
 ## Project Organization and Extensibility
 
