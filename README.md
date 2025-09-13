@@ -114,10 +114,3 @@ For a detailed exposition of the problem formulation, algorithmic design, and ex
 - `README.md`: Overview, installation, and usage instructions
 - `Report_OP.pdf`: Full technical report, including theoretical background, methodology, and empirical analysis
 
-
----
-
-## Contact & Collaboration
-
-Researchers, practitioners, and students interested in extending or applying this framework are encouraged to contribute or contact the project maintainer. Collaborative efforts, constructive feedback, and academic discussion are highly valued to advance the state of the art in equity-driven vehicle routing and metaheuristic optimization.
-
