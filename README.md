@@ -51,6 +51,19 @@ All input instances are provided in the `data/` directory, ranging from `input1.
 > - Input includes the number of requests, parcel quantities, taxi capacities, and a distance matrix.
 > - Output specifies the routes for each taxi, starting and ending at the depot.
 
+
+
+**Input file format:**
+- **Line 1:** N, M, K (number of passenger requests, parcel requests, and taxis)
+- **Line 2:** q[1], q[2], ..., q[M] (quantity of each parcel request)
+- **Line 3:** Q[1], Q[2], ..., Q[K] (parcel capacity of each taxi)
+- **Line i+3 (i = 0, ..., 2N+2M):** The i-th row of the distance matrix d(i, j)
+
+**Output file format:**
+- **Line 1:** Number of taxis K
+- **Line 2k (k = 1, ..., K):** Number of points in the route of taxi k (Lk)
+- **Line 2k+1 (k = 1, ..., K):** Sequence of points r[0], r[1], ..., r[Lk] (route of taxi k, starting and ending at depot 0)
+
 This structure enables comprehensive benchmarking and facilitates reproducibility of experimental results, which is essential for academic research and practical validation.
 
 ## Project Organization and Extensibility
